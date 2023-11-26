@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 
 import Footer from '../Footer'
 import FailureView from '../FailureView'
-// import PlayVideoView from '../PlayVideoView'
 
 import './index.css'
 import MovieDetails from '../MovieDetails'
@@ -144,8 +143,6 @@ class MovieDetailView extends Component {
     }
     return (
       <>
-        {/* <p className="json">{JSON.stringify(movieDetails)}</p> */}
-        {/* <PlayVideoView movieDetails={movieDetails} /> */}
         <div className="">
           <div className="">
             {movieDetails.map(each => (
@@ -173,16 +170,14 @@ class MovieDetailView extends Component {
           <div className="each-genre-ul-container">
             <h1 className="movie-info-rating-count-heading">Rating Count</h1>
             <p className="movie-info-rating-count">{count}</p>
-            {/* <p>{JSON.stringify(movieDetails)}</p> */}
-            {/* <p>{JSON.stringify(newMovieDetails)}</p> */}
+
             <h1 className="movie-info-rating-avg-heading">Rating Average</h1>
             <p className="movie-info-rating">{rating}</p>
           </div>
           <div className="each-genre-ul-container">
             <h1 className="movie-info-budget-heading">Budget</h1>
             <p className="movie-info-budget">{budget}</p>
-            {/* <p>{JSON.stringify(movieDetails)}</p> */}
-            {/* <p>{JSON.stringify(newMovieDetails)}</p> */}
+
             <h1 className="movie-info-release-date">Release Date </h1>
             <p>
               <span className="movie-info-date">{day}</span>

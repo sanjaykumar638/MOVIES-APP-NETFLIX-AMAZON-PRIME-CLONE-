@@ -7,7 +7,6 @@
   padding: 20px;
   height: 60px;
   width: 100%;
-  /* position: fixed; */
 }
 .lg-logo-container {
   display: flex;
@@ -210,11 +209,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
-  /* identical to box height, or 162% */
-
-  letter-spacing: -0.355556px;
+  letter-spacing: -0.35px;
   margin-left: 35px;
-
   color: #ffffff;
 }
 
@@ -224,7 +220,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
-  letter-spacing: -0.35555556416511536px;
+  letter-spacing: -0.3px;
   text-align: left;
   color: #ffffff;
   margin-left: 10px;

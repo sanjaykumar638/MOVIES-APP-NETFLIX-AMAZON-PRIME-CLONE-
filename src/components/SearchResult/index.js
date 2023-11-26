@@ -102,7 +102,6 @@ class SearchFilter extends Component {
       <>
         {searchMovies.length > 0 ? (
           <>
-            {/* <p>{JSON.stringify(searchMovies)}</p> */}
             <div className="search-filter-bg-container">
               <div className="search-filter-movies-list-container">
                 <ul className="search-filter-ul-container">

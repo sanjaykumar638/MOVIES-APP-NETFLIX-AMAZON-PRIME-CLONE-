@@ -10,9 +10,6 @@
   border: none;
 }
 
-/* You can change the CSS color to style the Next and 
-Previous Arrow buttons according to your project */
-
 .slick-prev:before,
 .slick-next:before {
   color: white;

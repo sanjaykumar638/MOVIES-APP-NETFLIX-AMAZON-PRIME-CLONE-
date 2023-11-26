@@ -4,7 +4,6 @@ import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import {Link} from 'react-router-dom'
 
-/* Add css to your project */
 import './index.css'
 
 const settings = {
